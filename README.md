@@ -74,7 +74,7 @@ https://nl.gdcloud.org/?path=/docs/components-textfield--text-field-example
 
 
     4. Локализация  
-Значение берется из [tolgee](https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2) (Пользователь: readonly|readonly)    
+Значение берется из [tolgee]([https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2](https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2/translations)) (Пользователь: readonly@readonly.ru|readonly)    
 Шаблон вывода: ***{{#lowcode.theme.ln}}<ident>{{/lowcode.theme.ln}}***  
 ![image](https://github.com/user-attachments/assets/13a85677-4031-468a-8f93-56a6b30cff27)
 
