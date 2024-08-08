@@ -59,29 +59,120 @@ https://nl.gdcloud.org/?path=/docs/components-textfield--text-field-example
 Объект lowcode позволяет работать с дополнительным функционалом    
 
     1. Значение атрибута  
-Шаблон вывода: ***{{#lowcode.object.attr}}<ident_path>{{/lowcode.object.attr}}***  
+Шаблон вывода: ***{{#lowcode.object.attr}}ident_path{{/lowcode.object.attr}}***  
 ![image](https://github.com/user-attachments/assets/e34502d8-08f2-450d-b8d9-57ccab7c44fa)
 
 
     2. Ссылка на файл  
-Шаблон вывода: ***{{#lowcode.object.file}}<id>{{/lowcode.object.file}}***   
+Шаблон вывода: ***{{#lowcode.object.file}}id{{/lowcode.object.file}}***   
 ![image](https://github.com/user-attachments/assets/03c1d8d9-57a5-4d0c-a71a-648a2586c214)
 
 
     3. Стиль  
-Шаблон вывода: ***{{#lowcode.object.style}}<id>{{/lowcode.object.id}}***  
+Шаблон вывода: ***{{#lowcode.object.style}}id{{/lowcode.object.style}}***  
 ![image](https://github.com/user-attachments/assets/e04bb095-9706-4d62-9361-13155553ef9b)
 
 
     4. Локализация  
-Значение берется из [tolgee]([https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2](https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2/translations)) (Пользователь: readonly@readonly.ru|readonly)    
-Шаблон вывода: ***{{#lowcode.theme.ln}}<ident>{{/lowcode.theme.ln}}***  
+Значение берется из [tolgee]([https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2](https://tolgee.k8s-ingress-nginx.greendatasoft.ru/projects/2/translations) (Пользователь: readonly@readonly.ru|readonly)    
+Шаблон вывода: ***{{#lowcode.theme.ln}}ident{{/lowcode.theme.ln}}***  
 ![image](https://github.com/user-attachments/assets/13a85677-4031-468a-8f93-56a6b30cff27)
 
 
     5. Переменные тем  
-Шаблон вывода: ***{{#lowcode.theme.vars}}<variableName>{{/lowcode.theme.vars}}***  
-![image](https://github.com/user-attachments/assets/a5e6fe5a-f08d-47b3-b19f-9f0b0ec45618)
+Шаблон вывода: ***{{#lowcode.theme.vars}}variableName{{/lowcode.theme.vars}}***  
+![image](https://github.com/user-attachments/assets/a5e6fe5a-f08d-47b3-b19f-9f0b0ec45618)  
+  
+  // приложение  
+  appFonts,  
+  mainBg,  
+  textColor,    
+  linkColor,  
+  panelBackground,  
+  appLogoObjId,  
+  appLogoStr,  
+  appLogoWidth,  
+  
+  // кнопки  
+  btnFonts,  
+  btnBkg,  
+  btnTextColor,  
+  btnHoverBkg,  
+  btnRadius,  
+  
+  // чекбоксы  
+  checkBoxFonts,  
+  checkBoxBorder,  
+  checkBoxBkg,  
+  
+  // навигационная панель  
+  navbarFonts,  
+  navbarBgColor,  
+  navbarTextColor,  
+  navbarDelimiterColor,  
+  
+  // главное меню  
+  sidebarFonts,  
+  sidebarColor,  
+  sidebarBorder,  
+  sidebarTextColor,  
+  sidebarIconColor,  
+  sidebarBkgHover,  
+  textHover,  
+  sidebarModeIconColor,  
+  sidebarModeActiveIconColor,  
+  sidebarItemHoverBorderColor,  
+  logoObjId,  
+  logoScalePercent,  
+  logoHAlign,  
+  
+  // поле поиска меню  
+  sidebarSearchFonts,  
+  sidebarSearchInputTextColor,  
+  sidebarInactiveSearchFieldBkg,  
+  sidebarActiveSearchFieldBkg,  
+  sidebarSearchInputBorder,  
+  sidebarActiveSearchShadow,  
+  
+  // формы  
+  labelsFonts,  
+  labelsColor,  
+  highlightColor,  
+  visualGroupHeaderFonts,  
+  visualGroupHeaderColor,  
+
+  // реестры  
+  stripesBg,  
+  registryHeaderBg,  
+  svgIconColorRegistryHeader,  
+  
+  // карточка  
+  cardHeaderBgColor,  
+  svgIconColorInCardHeader,  
+  tabTitleTextColor,  
+  iconBtnHoverBkg,  
+  tabNavsFonts,    
+  tabNavsColor,  
+  tabNavsTypeSettings,  
+  
+  // прочее  
+  tabsBorderColor,  
+  borderColor,  
+  registryLinkColor,  
+  registryTreeColor,  
+  controlFocusColor,  
+  controlBorderColor,  
+  controlDisabledColor,  
+  svgIconColor,  
+  svgIconColorInModalCardHeader,  
+  svgDropDownColor,  
+  invertedBtnBgColor,  
+  mainColor,  
+  blockCommentIconColor,  
+  svgIconColorWarning,  
+  dropdownListColor,  
+  appFaviconObjId,  
+  appFaviconData,  
 
 
 3. Защита  
